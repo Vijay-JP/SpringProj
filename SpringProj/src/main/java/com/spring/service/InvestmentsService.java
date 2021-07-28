@@ -32,6 +32,7 @@ public class InvestmentsService {
 
 	public long saveInvestment(Investments investment) {
 		Investments inv = investmentRepo.save(investment);
+		System.out.println(inv.getInvestment_id());
 		return inv.getInvestment_id();
 	}
 
