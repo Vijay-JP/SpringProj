@@ -1,0 +1,1 @@
+insert into INVESTMENTS (portal, investment_date, amount) values('SBI_RD', '07/25/2021', '12500');
