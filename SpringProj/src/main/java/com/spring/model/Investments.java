@@ -14,7 +14,7 @@ import javax.persistence.ColumnResult;
 @Entity
 @Table
 @NamedNativeQuery(
-	    name = "find_unique_investments",
+	name = "find_unique_investments",
     query =
             "SELECT "
                     + "i.portal as portal, sum(i.amount) as amount "
